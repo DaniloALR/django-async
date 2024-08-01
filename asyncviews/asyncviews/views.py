@@ -26,3 +26,5 @@ async def async_view(request):
 def sync_view(request):
     http_call_sync()
     return HttpResponse('Blocking HTTP request')
+
+# Tinha esquecido o pull request ;(
